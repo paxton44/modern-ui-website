@@ -20,3 +20,43 @@
     width: 62.56px;
     height: 16.02px;
 }
+
+.gpt3__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* This is how you group together and style as a group so the navbar is appropriately spaced and looks clean and easy to read */
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    top: 55px;
+    left: 1070px;
+
+    background: #FF4820;
+    border-radius: 5px;
+
+
+ 
+
+    
+}
