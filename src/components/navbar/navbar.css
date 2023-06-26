@@ -49,11 +49,16 @@
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    top: 55px;
-    left: 1070px;
-
+    color:#fff;
     background: #FF4820;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 25px;
     border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
 
 
  
