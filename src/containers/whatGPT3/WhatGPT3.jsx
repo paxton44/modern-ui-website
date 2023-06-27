@@ -17,7 +17,6 @@ const WhatGPT3 = () => {
           <Feature />
         </div>
       </div>
-
     </div>
   )
 }
