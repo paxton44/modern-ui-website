@@ -1,8 +1,10 @@
+
 .gpt3__navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
+    
 }
 
 .gpt3__navbar-links {
@@ -10,6 +12,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    cursor: pointer;
+    color: white;
 }
 
 .gpt3__navbar-links_logo {
