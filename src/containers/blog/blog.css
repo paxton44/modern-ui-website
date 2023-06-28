@@ -1,0 +1,11 @@
+/* Styling Article Containers that are components inside the blog container thats the mother component of article */
+.gpt3__blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__blog-heading {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
