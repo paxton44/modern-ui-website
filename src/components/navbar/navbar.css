@@ -1,10 +1,9 @@
-
 .gpt3__navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 2rem 6rem;
-    
 }
 
 .gpt3__navbar-links {
@@ -34,16 +33,16 @@
     align-items: center;
 }
 
-/* This is how you group together and style as a group so the navbar is appropriately spaced and looks clean and easy to read */
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-    color: white;
+    color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
+
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -51,27 +50,27 @@
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    color:#fff;
+    color: #fff;
     background: #FF4820;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
-    line-height: 25px; 
+    line-height: 25px;
     border: none;
     outline: none;
     cursor: pointer;
-    border-radius: 5px;    
+    border-radius: 5px;
 }
 
 .gpt3__navbar-menu {
-    margin: 1rem;
+    margin-left: 1rem;
+
     display: none;
     position: relative;
 }
 
 .gpt3__navbar-menu svg {
     cursor: pointer;
-
 }
 
 .gpt3__navbar-menu_container {
@@ -79,16 +78,17 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+    
     text-align: end;
     background: var(--color-footer);
     padding: 2rem;
     position: absolute;
-    top: 40px;
     right: 0;
+    top: 40px;
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0 0 5 rgba(0,0, 0,0.2);
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
 }
 
 .gpt3__navbar-menu_container p {
@@ -99,7 +99,6 @@
     display: none;
 }
 
-/* Medium */
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {
         display: none;
@@ -110,25 +109,28 @@
     }
 }
 
-/* Tablet */
 @media screen and (max-width: 700px) {
     .gpt3__navbar {
         padding: 2rem 4rem;
     }
 }
 
-/* Mobile */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .gpt3__navbar {
         padding: 2rem;
     }
+
     .gpt3__navbar-sign {
         display: none;
     }
+
     .gpt3__navbar-menu_container {
         top: 20px;
     }
+
     .gpt3__navbar-menu_container-links-sign {
         display: block;
     }
 }
+
+    
