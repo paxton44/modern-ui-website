@@ -34,7 +34,7 @@ Anyone can contribute to the app, just submit changes on the paxton44 github acc
 ## Questions
 If you have any questions, please contact me directly at mitchflood1@gmail.com 
 Visit my Github [here](https://github.com/paxton44)
-<!-- ## Demo Link
-Click [Here](https://mitch-flood-react-dashboard.web.app/) for a live demo -->
+## Demo Link
+Click [Here](https://modern-ui-ux-react-front-end.web.app/) for a live demo
 
 
